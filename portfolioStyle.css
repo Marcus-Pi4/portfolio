@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(38, 44, 49);
+    color: linen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+header {
+    position: sticky ;
+    text-align: center;
+    border: 4px outset rgb(255, 255, 255);
+    color: linen;
+    background-color: steelblue;
+    box-shadow: 9px 9px 8px black;
+}
+.aboutMe {
+    margin: 50px;
+}
+.myWorkHeading {
+    background-color: steelblue;
+    color:linen;
+    font-size: 20px;
+    border: 4px outset lightgray;
+}
+.myWorkHeading h2 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.myWork {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 9px 9px 9px black;
+}
+.myWork div {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    border: 4px outset rgb(255, 255, 255);
+    margin: 30px;
+    box-shadow: 9px 9px 9px black;
+}
+.myWork div h3 {
+    position: absolute;
+    background-color: black;
+    top: 10px;
+    left: 50%;
+    border: 3px outset lightgray;
+}
+ul li{
+    margin-bottom: 20px;
+}
+footer h2 {
+    text-align:center;
+}
+footer ul {
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+a:any-link {
+    color: linen;
+}
+a:hover {
+    color:darkorange;
+}
+
